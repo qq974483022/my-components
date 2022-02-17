@@ -9,7 +9,7 @@
                 <span v-else>{{row[th.prop]}}</span>
             </template>
         </el-table-column>
-        <el-table-column v-if="isAction" label="操作" align="center" fixed="right">
+        <el-table-column v-if="isAction"  v-bind="bindAction"  label="操作" align="center">
             <template slot-scope="{ row }">
                 <el-button v-for="(button, index) in actionButtonList" :key="index" v-bind="bindButton(button)" @click="clickButton(button.mark,row)">{{button.text}}</el-button>
             </template>
@@ -52,14 +52,14 @@ export default {
       default() {
         return false
       },
+    },
+    bindAction: {
+      type: Object,
+      default() {
+        return {}
+      }
     }
   },
-  data() {
-    return {
-      
-    };
-  },
-
   computed: {
     // 判断有无操作按钮项
     isAction() {
@@ -106,7 +106,7 @@ export default {
         return value.toString()
       })
       this.$router.push({path:path})
-    }
+    },
   },
 };
 </script>
