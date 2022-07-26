@@ -1,0 +1,17 @@
+1. JavaScript
+    (1) 基本数据类型： Number String Boolean  
+        引用数据类型： Object Array             
+        特殊数据类型： undefined null 
+        使用typeof判断的类型：undefined、boolean、string、number          
+        https://blog.csdn.net/qq_30136729/article/details/124090314
+    (2) this指向 https://blog.csdn.net/weixin_48594833/article/details/122415001
+
+    (5) 原型链 https://blog.csdn.net/dyy_csdn/article/details/104565026?utm_medium=distribute.pc_feed_404.none-task-blog-2~default~BlogCommendFromBaidu~Rate-1-104565026-blog-null.pc_404_mixedpudn&depth_1-utm_source=distribute.pc_feed_404.none-task-blog-2~default~BlogCommendFromBaidu~Rate-1-104565026-blog-null.pc_404_mixedpud
+    (6) 继承 https://blog.csdn.net/m0_53001289/article/details/121553882
+2. 浏览器
+    (1)
+    (2) http 缓存, 协商缓存 https://blog.csdn.net/weixin_45740510/article/details/124205003
+    (3) cookies, sessionStorage, localStorage ./js八股文 cookies, sessionStorage, localStorage.png
+
+5.Vue
+    (1) https://blog.csdn.net/m0_46613429/article/details/121769164
